@@ -52,7 +52,7 @@ cd ../firebase && firebase deploy --only hosting
 ```
 
 ### 4. Android
-- Android Studio me `android/` folder kholo (Gradle wrapper khud ban jayega).
+- Android Studio me `android/` folder kholo (Gradle 8.9 wrapper repo me hai).
 - `android/local.properties` me:
   ```
   tmh.functionsUrl=https://<ref>.supabase.co/functions/v1
