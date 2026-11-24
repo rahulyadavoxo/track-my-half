@@ -1,0 +1,15 @@
+# Har function apna auth khud karta hai (device_secret / web_token), isliye JWT verify off.
+[functions.register-device]
+verify_jwt = false
+[functions.device-token]
+verify_jwt = false
+[functions.request-tracking]
+verify_jwt = false
+[functions.tracking-status]
+verify_jwt = false
+[functions.cancel-tracking]
+verify_jwt = false
+[functions.stop-tracking]
+verify_jwt = false
+[functions.ping]
+verify_jwt = false

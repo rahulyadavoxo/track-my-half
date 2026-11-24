@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.keystore
+android/app/google-services.json
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+.idea/
+*.iml
+service-account*.json
+*.tsbuildinfo
